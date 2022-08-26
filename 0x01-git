@@ -1,0 +1,24 @@
+root@48a8f4f8ac38:/alx-pre_course# cd 0x01-git                                                                                          
+root@48a8f4f8ac38:/alx-pre_course/0x01-git# touch README.md                                                                             
+root@48a8f4f8ac38:/alx-pre_course/0x01-git# ls                                                                                          
+README.md                                                                                                                               
+root@48a8f4f8ac38:/alx-pre_course/0x01-git# echo 'new Readme' > README.md                                                               
+root@48a8f4f8ac38:/alx-pre_course/0x01-git# cd ..                                                                                       
+root@48a8f4f8ac38:/alx-pre_course# git add .                                                                                            
+root@48a8f4f8ac38:/alx-pre_course# git commit -m 'my readme commit'                                                                     
+On branch master                                                                                                                        
+Your branch is ahead of 'origin/master' by 1 commit.                                                                                    
+  (use "git push" to publish your local commits)                                                                                        
+                                                                                                                                        
+nothing to commit, working tree clean                                                                                                   
+root@48a8f4f8ac38:/alx-pre_course# git push                                                                                             
+Enumerating objects: 7, done.                                                                                                           
+Counting objects: 100% (7/7), done.                                                                                                     
+Delta compression using up to 2 threads                                                                                                 
+Compressing objects: 100% (2/2), done.                                                                                                  
+Writing objects: 100% (4/4), 339 bytes | 339.00 KiB/s, done.                                                                            
+Total 4 (delta 0), reused 0 (delta 0)                                                                                                   
+To https://github.com/fortunebennard/alx-pre_course.git                                                                                 
+   26be94f..903ccdf  master -> master                                                                                                   
+root@48a8f4f8ac38:/alx-pre_course#                                                                                                      
+                           
